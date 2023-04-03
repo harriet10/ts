@@ -1,0 +1,32 @@
+body{
+    border: 1px solid red;
+    
+}
+.heading{
+    border: 1px solid green;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.content{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between; 
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.item{
+    border: 1px solid royalblue;
+    text-align: center;
+    background-color: #f1f1f1;
+    line-height: 200px;
+    flex-wrap: wrap;
+    width: 33%;
+}
+.footer{
+    border: 1px solid purple;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
